@@ -6,7 +6,7 @@ namespace Implemention
     {
         static void Main(string[] args)
         {
-            FactoryMethod.Factory factory = new FactoryMethod.GenericFactory<IronDoor>(); //new FactoryMethod.blacksmith();//Carpenter();
+            Factory factory = new GenericFactory<WoodenDoor>(); //new FactoryMethod.blacksmith();//Carpenter();
             factory.CreatDoor();
             Console.ReadKey();
         }
