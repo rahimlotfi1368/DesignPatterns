@@ -1,6 +1,6 @@
 ﻿namespace FactoryMethod;
 
-public class IronDoor    :Door
+public class IronDoor : Door
 {
     public override void Build()
     {

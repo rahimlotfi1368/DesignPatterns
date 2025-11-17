@@ -1,6 +1,6 @@
 ﻿namespace FactoryMethod;
 
-public class blacksmith : Factory
+public class Blacksmith : Factory
 {
     public override Door GetDoor()
     {
